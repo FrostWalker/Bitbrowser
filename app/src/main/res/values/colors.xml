@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3582f3</color>
+
+    <color name="popupBackgroundLight">#f6ffffff</color>
+    <color name="popupBackgroundDark">#f6000000</color>
+    <color name="popupBorderLight">#66999999</color>
+    <color name="popupBorderDark">#66666666</color>
+
+    <color name="toolbarBackgroundLight">#f2f2f2</color>
+    <color name="toolbarBackgroundDark">#000000</color>
+
+    <color name="progressFocusBackgroundLight">#c6d4ec</color>
+    <color name="progressFocusBackgroundDark">#666666</color>
+    <color name="progressBackgroundLight">#e2e2e2</color>
+    <color name="progressBackgroundDark">#333333</color>
+
+    <color name="toolbarTextLight">#575757</color>
+    <color name="toolbarTextDark">#ffffff</color>
+
+    <color name="urlbarFocusBackgroundLight">#ffffff</color>
+    <color name="urlbarFocusBackgroundDark">#ffffff</color>
+    <color name="urlbarBackgroundLight">#fcfcfc</color>
+    <color name="urlbarBackgroundDark">#fafafa</color>
+    <color name="urlbarBorder">#66cccccc</color>
+    <color name="urlbarText">#000000</color>
+    <color name="urlbarHint">#999999</color>
+</resources>

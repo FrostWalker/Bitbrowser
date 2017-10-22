@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_hint">ウェブアドレスを入力</string>
+    <string name="options_bookmarks">ブックマーク</string>
+    <string name="options_help">ヘルプ</string>
+    <string name="options_history">履歴</string>
+    <string name="options_settings">設定</string>
+    <string name="settings_javascript">Javascriptを有効にする</string>
+    <string name="bookmarks_title">ブックマーク</string>
+    <string name="history_title">履歴</string>
+    <string name="history_clear">すべてクリア</string>
+    <string name="help_title">ヘルプ</string>
+    <string name="settings_private">プライベートブラウジング</string>
+    <string name="settings_homepage">ホームページ</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_urlbar">上のツールバー</string>
+    <string name="settings_title">設定</string>
+    <string name="settings_desktop">デスクトップモード</string>
+    <string name="settings_search">検索エンジン</string>
+    <string name="settings_search_title">検索エンジン</string>
+    <string name="settings_autohide">ツールバーの自動削除</string>
+    <string name="intent">Bitbrowserで開く</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="options_anim">
+        <item name="android:windowEnterAnimation">@anim/options_show</item>
+        <item name="android:windowExitAnimation">@anim/options_hide</item>
+    </style>
+    <style name="window_anim">
+        <item name="android:windowEnterAnimation">@anim/window_show</item>
+        <item name="android:windowExitAnimation">@anim/window_hide</item>
+    </style>
+</resources>

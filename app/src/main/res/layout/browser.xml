@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/browser"
+    >
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:animateLayoutChanges="true"
+        android:layout_weight="0"
+        android:background="@color/toolbarBackgroundLight"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/toolbar_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="pageBack" />
+
+        <ImageView
+            android:id="@+id/toolbar_forward"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_forward"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:onClick="pageForward" />
+
+        <AutoCompleteTextView
+            android:id="@+id/toolbar_urlbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/urlbar_background"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="10dp"
+            android:textSize="14dp"
+            android:hint="@string/url_hint"
+            android:textColorHint="@color/urlbarHint"
+            android:textColor="@color/urlbarText"
+            android:imeOptions="actionGo"
+            android:inputType="textUri"
+            android:lines="1"
+            android:focusedByDefault="false"
+            android:selectAllOnFocus="true"/>
+
+        <ImageView
+            android:id="@+id/toolbar_refresh"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_refresh"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="reloadPage" />
+
+        <ImageView
+            android:id="@+id/toolbar_stop"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_stop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="stopLoad" />
+
+        <ImageView
+            android:id="@+id/toolbar_menu"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_more_vert"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="openMenu" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="0"
+        android:animateLayoutChanges="true"
+        android:max="100"
+        android:min="0"
+        android:background="@color/progressBackgroundLight"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progress"
+        />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        android:background="@android:color/white">
+    </WebView>
+</RelativeLayout>

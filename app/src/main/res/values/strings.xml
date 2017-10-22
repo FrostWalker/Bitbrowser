@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Bitbrowser</string>
+    <string name="url_hint">Search or enter address</string>
+    <string name="options_bookmarks">Bookmarks</string>
+    <string name="options_history">History</string>
+    <string name="options_settings">Settings</string>
+    <string name="options_help">Help</string>
+    <string name="settings_javascript">Enable Javascript</string>
+    <string name="history_title">History</string>
+    <string name="history_clear">clear all</string>
+    <string name="help_title">Help</string>
+    <string name="settings_private">Private Browsing</string>
+    <string name="settings_homepage">Homepage</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_urlbar">Toolbar On Top</string>
+    <string name="settings_title">Settings</string>
+    <string name="bookmarks_title">Bookmarks</string>
+    <string name="settings_desktop">Show Desktop Sites</string>
+    <string name="settings_search">Search Provider</string>
+    <string name="settings_search_title">Search Provider</string>
+    <string name="settings_autohide">Enable Toolbar Autohide</string>
+    <string name="intent">Open in Bitbrowser</string>
+</resources>
